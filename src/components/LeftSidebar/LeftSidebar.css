@@ -119,44 +119,22 @@
 
 
 
-.chatgpt-messages {
-    display: flex;
-    flex-direction: column;
-    height: 300px;
-    overflow-y: auto;
-  }
-  
-  .messages {
-    flex: 1;
-  }
-  
-  .message {
+
+
+
+.llm-button {
+    width: 100%;
+    background-color: #077eff;
+    color: white;
     padding: 10px;
-    margin: 5px 0;
+    margin-top: 10px;
+    border: none;
     border-radius: 5px;
-  }
-  
-  .message.user {
-    background-color: #e0e0e0;
-    text-align: right;
-  }
-  
-  .message.assistant {
-    background-color: #d1f7c4;
-    text-align: left;
-  }
-  
-  .input-container {
-    display: flex;
-    gap: 10px;
-  }
-  
-  .input-container input {
-    flex: 1;
-    padding: 8px;
-  }
-  
-  .input-container button {
-    padding: 8px 15px;
-  }
-  
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.llm-button:hover {
+    background-color: #005ecb;
+}

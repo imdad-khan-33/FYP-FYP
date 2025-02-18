@@ -21,6 +21,7 @@ A full-stack chat application built with React JS and Firebase. It allows users 
 
 1. Clone the repository:
    ```bash
+   git clone https://github.com/Shaw145/Real-time-Chat-Application.git
    cd Real-time-Chat-Application
 
 2. Install dependencies:
@@ -47,10 +48,12 @@ A full-stack chat application built with React JS and Firebase. It allows users 
 - Send text messages and share images in real-time.
 
 
+## Author
+- Suman Shaw
 
+## Resources
 
-
-
+- [**GreatStack**](https://www.youtube.com/@GreatStackDev)
 
 
 

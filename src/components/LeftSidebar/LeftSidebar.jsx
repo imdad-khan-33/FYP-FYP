@@ -111,6 +111,17 @@ const LeftSidebar = () => {
     updateChatUserData()
   }, [chatData])
 
+
+
+  // const openChatGPT = () => {
+  //   window.open('https://chat.openai.com/', '_blank');
+  // };
+
+
+
+
+
+
   return (
     <div className={`ls ${chatVisible && "hidden"}`}>
       <div className="ls-top">
@@ -119,11 +130,9 @@ const LeftSidebar = () => {
           <div className="menu">
             <img src={assets.menu_icon} alt="" />
             <div className="sub-menu">
-              <p >Edit Profile</p>
-              {/* onClick={() => navigate('/profile')} */}
+              <p onClick={() => navigate('/profile')}>Edit Profile</p>
               <hr />
-              <p  onClick={()=>logout()} >Logout</p> 
-              {/* onClick={()=>logout()} */}
+              <p onClick={()=>logout()}>Logout</p>
             </div>
           </div>
         </div>
@@ -131,7 +140,24 @@ const LeftSidebar = () => {
           <img src={assets.search_icon} alt="" />
           <input onChange={inputHandler} type="text" placeholder='search here...' />
         </div>
+
+       
+       
+
+
       </div>
+
+
+
+{/* LLM Button */}
+<button className="llm-button">
+          Open llm chatbot
+        </button>
+
+              
+
+
+
       <div className="ls-list">
         {showSearch && user ?
           <div onClick={addChat} className='friends add-user'>
