@@ -57,3 +57,78 @@ A full-stack chat application built with React JS and Firebase. It allows users 
 
 
 
+
+Real-time-Chat-Application-master   fyp project/
+├─ .gitignore
+├─ .idea/
+│  ├─ inspectionProfiles/
+│  │  └─ profiles_settings.xml
+│  ├─ modules.xml
+│  ├─ Real-time-Chat-Application-master.iml
+│  └─ workspace.xml
+├─ app/
+├─ index.html
+├─ package-lock.json
+├─ package.json
+├─ public/
+│  ├─ background.png
+│  ├─ chat_app.svg
+│  └─ vite.svg
+├─ README.md
+└─ src/
+   ├─ App.jsx
+   ├─ assets/
+   │  ├─ add_icon.png
+   │  ├─ arrow_icon.png
+   │  ├─ assets.js
+   │  ├─ avatar_icon.png
+   │  ├─ gallery_icon.png
+   │  ├─ green_dot.png
+   │  ├─ help_icon.png
+   │  ├─ img1.jpg
+   │  ├─ img2.jpg
+   │  ├─ logo.png
+   │  ├─ logo_big.png
+   │  ├─ logo_icon.png
+   │  ├─ menu_icon.png
+   │  ├─ pic1.png
+   │  ├─ pic2.png
+   │  ├─ pic3.png
+   │  ├─ pic4.png
+   │  ├─ profile_alison.png
+   │  ├─ profile_enrique.png
+   │  ├─ profile_marco.png
+   │  ├─ profile_martin.png
+   │  ├─ profile_richard.png
+   │  ├─ react.svg
+   │  ├─ search_icon.png
+   │  └─ send_button.png
+   ├─ components/
+   │  ├─ ChatBox/
+   │  │  ├─ ChatBox.css
+   │  │  └─ ChatBox.jsx
+   │  ├─ LeftSidebar/
+   │  │  ├─ LeftSidebar.css
+   │  │  └─ LeftSidebar.jsx
+   │  └─ RightSidebar/
+   │     ├─ RightSidebar.css
+   │     └─ RightSidebar.jsx
+   ├─ config/
+   │  └─ firebase.js
+   ├─ context/
+   │  └─ AppContext.jsx
+   ├─ index.css
+   ├─ lib/
+   │  └─ upload.js
+   ├─ main.jsx
+   └─ pages/
+      ├─ Chat/
+      │  ├─ Chat.css
+      │  └─ Chat.jsx
+      ├─ Login/
+      │  ├─ Login.css
+      │  └─ Login.jsx
+      └─ ProfileUpdate/
+         ├─ ProfileUpdate.css
+         └─ ProfileUpdate.jsx
+
