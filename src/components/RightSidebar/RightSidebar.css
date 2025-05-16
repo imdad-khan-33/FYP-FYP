@@ -1,6 +1,8 @@
 .rs{
     color: white;
     background-color: #001030;
+
+    /* background-color: rgb(4, 81, 248); */
     position: relative;
     height: 75vh;
     overflow-y: scroll;

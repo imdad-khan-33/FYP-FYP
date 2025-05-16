@@ -3,14 +3,15 @@ import {createUserWithEmailAndPassword, getAuth, sendPasswordResetEmail, signInW
 import {getFirestore, setDoc, doc, collection, query, where, getDocs} from "firebase/firestore"
 import {toast} from 'react-toastify';
 
+
 const firebaseConfig = {
-    apiKey: "AIzaSyBxK99oSK8ce9BUL8XnCmfeky3Uz0rNiTI",
-    authDomain: "fyp2-19d33.firebaseapp.com",
-    projectId: "fyp2-19d33",
-    storageBucket: "fyp2-19d33.firebasestorage.app",
-    messagingSenderId: "626676216989",
-    appId: "1:626676216989:web:c21f62cdc707f15ad75074"
-  };
+  apiKey: "AIzaSyA1czxIURjMnnkIfMdJkq_J-yu1GW-A4Rs",
+  authDomain: "fyp3-45fc9.firebaseapp.com",
+  projectId: "fyp3-45fc9",
+  storageBucket: "fyp3-45fc9.firebasestorage.app",
+  messagingSenderId: "703963896453",
+  appId: "1:703963896453:web:13eb10757ad651cbb867ec"
+};
   
 
 // Initialize Firebase
