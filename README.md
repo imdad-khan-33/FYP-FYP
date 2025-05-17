@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # A Real-time Chat Communication 
+=======
+# A Real-time Chat Communication
+>>>>>>> 451e5d97d8c93a0f6e3354e46afdda0817d55377
 
 ## Overview
 
@@ -48,6 +52,13 @@ A full-stack chat application built with React JS and Firebase. It allows users 
 - Send text messages and share images in real-time.
 
 
+<<<<<<< HEAD
+=======
+## Author
+imdad khan
+
+
+>>>>>>> 451e5d97d8c93a0f6e3354e46afdda0817d55377
 
 
 
@@ -97,9 +108,15 @@ Real-time-Chat-Application-master   fyp project/
    │  ├─ search_icon.png
    │  └─ send_button.png
    ├─ components/
+<<<<<<< HEAD
         llm 
           llm chatbot.css
           llm chatbot.jsx
+=======
+      LLM
+        LLM chatbot.css
+        LLM Chatbot.jsx
+>>>>>>> 451e5d97d8c93a0f6e3354e46afdda0817d55377
    │  ├─ ChatBox/
    │  │  ├─ ChatBox.css
    │  │  └─ ChatBox.jsx
