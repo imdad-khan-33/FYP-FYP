@@ -49,7 +49,7 @@ A full-stack chat application built with React JS and Firebase. It allows users 
 
 
 ## Author
-- Suman Shaw
+imdad khan
 
 ## Resources
 
@@ -104,6 +104,9 @@ Real-time-Chat-Application-master   fyp project/
    │  ├─ search_icon.png
    │  └─ send_button.png
    ├─ components/
+      LLM
+        LLM chatbot.css
+        LLM Chatbot.jsx
    │  ├─ ChatBox/
    │  │  ├─ ChatBox.css
    │  │  └─ ChatBox.jsx
