@@ -1,4 +1,4 @@
-# A Real-time Chat Application
+# A Real-time Chat Communication
 
 ## Overview
 
@@ -9,7 +9,7 @@ A full-stack chat application built with React JS and Firebase. It allows users 
 - **User Authentication**: Secure user account creation and login using Firebase Authentication.
 - **Real-time Messaging**: Messages are stored in Firebase Firestore and are updated in real-time across all connected users.
 - **Image Sharing**: Users can share images within the chat, with the images stored securely in Firebase Storage.
-- **Responsive UI**: Built with React JS, the app offers a smooth and intuitive user experience across devices.
+
 
 ## Tech Stack
 
@@ -21,7 +21,7 @@ A full-stack chat application built with React JS and Firebase. It allows users 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Shaw145/Real-time-Chat-Application.git
+   git clone https://github.com/imdadkhan-33/Real-time-Chat-Application.git
    cd Real-time-Chat-Application
 
 2. Install dependencies:
@@ -51,9 +51,6 @@ A full-stack chat application built with React JS and Firebase. It allows users 
 ## Author
 imdad khan
 
-## Resources
-
-- [**GreatStack**](https://www.youtube.com/@GreatStackDev)
 
 
 
